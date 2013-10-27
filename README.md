@@ -6,7 +6,7 @@ In this lab, you will build on the simple visualization from last class. Your ta
 * Add a y-axis that has 5 ticks which represent the range of grades possible: 0, 20,40, 60, 80, 100. The grid should also change dynamically if the svg size changes.
 * Create a pie chart that shows the ratio of students who passed and those who failed the exam. Use the previously set "datasetPerformance".
 
-If you need more guidance, link the index file to "_js/script-beginner.js"; otherwise, link it to "_js/script-advanced.js"
+If you need more guidance, link the index file to "script-beginner.js"; otherwise, link it to "script-advanced.js"
 
 Here are some links you may find useful:
 * D3 scales - http://alignedleft.com/tutorials/d3/scales
