@@ -169,13 +169,14 @@ $(document).ready(function() {
 				"top": self.position().top + 5
 			})
 			.text(self.attr("desc"))
+			.stop(true,true)
 			.fadeIn(50);
 	}).on("mouseleave", function() {
 		var self = $(this);
 		// fade the bar back in
 		self.animate({"opacity":1}, 100);
 		// fade out the score
-		$("#score-popup").fadeOut(50);
+		$("#score-popup").stop(true,true).fadeOut(50);
 	});
 
 
